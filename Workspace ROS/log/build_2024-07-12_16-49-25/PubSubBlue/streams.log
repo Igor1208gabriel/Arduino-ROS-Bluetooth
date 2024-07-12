@@ -1,0 +1,41 @@
+[0.439s] Invoking command in '/home/igor/Projeto_Arduino_Blue/src/PubSubBlue': PYTHONPATH=/home/igor/Projeto_Arduino_Blue/build/PubSubBlue/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/igor/Projeto_Arduino_Blue/install/PubSubBlue/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/PubSubBlue build --build-base /home/igor/Projeto_Arduino_Blue/build/PubSubBlue/build install --record /home/igor/Projeto_Arduino_Blue/build/PubSubBlue/install.log --single-version-externally-managed install_data
+[0.569s] running egg_info
+[0.569s] creating ../../build/PubSubBlue/PubSubBlue.egg-info
+[0.576s] writing ../../build/PubSubBlue/PubSubBlue.egg-info/PKG-INFO
+[0.576s] writing dependency_links to ../../build/PubSubBlue/PubSubBlue.egg-info/dependency_links.txt
+[0.576s] writing entry points to ../../build/PubSubBlue/PubSubBlue.egg-info/entry_points.txt
+[0.576s] writing requirements to ../../build/PubSubBlue/PubSubBlue.egg-info/requires.txt
+[0.576s] writing top-level names to ../../build/PubSubBlue/PubSubBlue.egg-info/top_level.txt
+[0.576s] writing manifest file '../../build/PubSubBlue/PubSubBlue.egg-info/SOURCES.txt'
+[0.590s] reading manifest file '../../build/PubSubBlue/PubSubBlue.egg-info/SOURCES.txt'
+[0.591s] writing manifest file '../../build/PubSubBlue/PubSubBlue.egg-info/SOURCES.txt'
+[0.591s] running build
+[0.591s] running build_py
+[0.591s] creating /home/igor/Projeto_Arduino_Blue/build/PubSubBlue/build
+[0.591s] creating /home/igor/Projeto_Arduino_Blue/build/PubSubBlue/build/lib
+[0.591s] creating /home/igor/Projeto_Arduino_Blue/build/PubSubBlue/build/lib/PubSubBlue
+[0.591s] copying PubSubBlue/__init__.py -> /home/igor/Projeto_Arduino_Blue/build/PubSubBlue/build/lib/PubSubBlue
+[0.591s] copying PubSubBlue/BTRecebe.py -> /home/igor/Projeto_Arduino_Blue/build/PubSubBlue/build/lib/PubSubBlue
+[0.591s] copying PubSubBlue/BTEnvia.py -> /home/igor/Projeto_Arduino_Blue/build/PubSubBlue/build/lib/PubSubBlue
+[0.591s] running install
+[0.594s] running install_lib
+[0.601s] creating /home/igor/Projeto_Arduino_Blue/install/PubSubBlue/lib/python3.10/site-packages/PubSubBlue
+[0.601s] copying /home/igor/Projeto_Arduino_Blue/build/PubSubBlue/build/lib/PubSubBlue/__init__.py -> /home/igor/Projeto_Arduino_Blue/install/PubSubBlue/lib/python3.10/site-packages/PubSubBlue
+[0.601s] copying /home/igor/Projeto_Arduino_Blue/build/PubSubBlue/build/lib/PubSubBlue/BTRecebe.py -> /home/igor/Projeto_Arduino_Blue/install/PubSubBlue/lib/python3.10/site-packages/PubSubBlue
+[0.601s] copying /home/igor/Projeto_Arduino_Blue/build/PubSubBlue/build/lib/PubSubBlue/BTEnvia.py -> /home/igor/Projeto_Arduino_Blue/install/PubSubBlue/lib/python3.10/site-packages/PubSubBlue
+[0.601s] byte-compiling /home/igor/Projeto_Arduino_Blue/install/PubSubBlue/lib/python3.10/site-packages/PubSubBlue/__init__.py to __init__.cpython-310.pyc
+[0.601s] byte-compiling /home/igor/Projeto_Arduino_Blue/install/PubSubBlue/lib/python3.10/site-packages/PubSubBlue/BTRecebe.py to BTRecebe.cpython-310.pyc
+[0.602s] byte-compiling /home/igor/Projeto_Arduino_Blue/install/PubSubBlue/lib/python3.10/site-packages/PubSubBlue/BTEnvia.py to BTEnvia.cpython-310.pyc
+[0.602s] running install_data
+[0.602s] creating /home/igor/Projeto_Arduino_Blue/install/PubSubBlue/share/ament_index
+[0.602s] creating /home/igor/Projeto_Arduino_Blue/install/PubSubBlue/share/ament_index/resource_index
+[0.602s] creating /home/igor/Projeto_Arduino_Blue/install/PubSubBlue/share/ament_index/resource_index/packages
+[0.602s] copying resource/PubSubBlue -> /home/igor/Projeto_Arduino_Blue/install/PubSubBlue/share/ament_index/resource_index/packages
+[0.602s] copying package.xml -> /home/igor/Projeto_Arduino_Blue/install/PubSubBlue/share/PubSubBlue
+[0.602s] running install_egg_info
+[0.611s] Copying ../../build/PubSubBlue/PubSubBlue.egg-info to /home/igor/Projeto_Arduino_Blue/install/PubSubBlue/lib/python3.10/site-packages/PubSubBlue-0.0.0-py3.10.egg-info
+[0.611s] running install_scripts
+[0.684s] Installing envia script to /home/igor/Projeto_Arduino_Blue/install/PubSubBlue/lib/PubSubBlue
+[0.684s] Installing recebe script to /home/igor/Projeto_Arduino_Blue/install/PubSubBlue/lib/PubSubBlue
+[0.684s] writing list of installed files to '/home/igor/Projeto_Arduino_Blue/build/PubSubBlue/install.log'
+[0.697s] Invoked command in '/home/igor/Projeto_Arduino_Blue/src/PubSubBlue' returned '0': PYTHONPATH=/home/igor/Projeto_Arduino_Blue/build/PubSubBlue/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/igor/Projeto_Arduino_Blue/install/PubSubBlue/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/PubSubBlue build --build-base /home/igor/Projeto_Arduino_Blue/build/PubSubBlue/build install --record /home/igor/Projeto_Arduino_Blue/build/PubSubBlue/install.log --single-version-externally-managed install_data

@@ -1,0 +1,31 @@
+[0.391s] Invoking command in '/home/igor/Projeto_Arduino_Blue/src/PubSubBlue': PYTHONPATH=/home/igor/Projeto_Arduino_Blue/build/PubSubBlue/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/igor/Projeto_Arduino_Blue/install/PubSubBlue/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/PubSubBlue build --build-base /home/igor/Projeto_Arduino_Blue/build/PubSubBlue/build install --record /home/igor/Projeto_Arduino_Blue/build/PubSubBlue/install.log --single-version-externally-managed install_data
+[0.522s] running egg_info
+[0.530s] writing ../../build/PubSubBlue/PubSubBlue.egg-info/PKG-INFO
+[0.530s] writing dependency_links to ../../build/PubSubBlue/PubSubBlue.egg-info/dependency_links.txt
+[0.530s] writing entry points to ../../build/PubSubBlue/PubSubBlue.egg-info/entry_points.txt
+[0.531s] writing requirements to ../../build/PubSubBlue/PubSubBlue.egg-info/requires.txt
+[0.531s] writing top-level names to ../../build/PubSubBlue/PubSubBlue.egg-info/top_level.txt
+[0.547s] reading manifest file '../../build/PubSubBlue/PubSubBlue.egg-info/SOURCES.txt'
+[0.547s] writing manifest file '../../build/PubSubBlue/PubSubBlue.egg-info/SOURCES.txt'
+[0.547s] running build
+[0.547s] running build_py
+[0.547s] copying PubSubBlue/__init__.py -> /home/igor/Projeto_Arduino_Blue/build/PubSubBlue/build/lib/PubSubBlue
+[0.547s] copying PubSubBlue/BTRecebe.py -> /home/igor/Projeto_Arduino_Blue/build/PubSubBlue/build/lib/PubSubBlue
+[0.548s] copying PubSubBlue/BTEnvia.py -> /home/igor/Projeto_Arduino_Blue/build/PubSubBlue/build/lib/PubSubBlue
+[0.548s] running install
+[0.551s] running install_lib
+[0.558s] copying /home/igor/Projeto_Arduino_Blue/build/PubSubBlue/build/lib/PubSubBlue/BTRecebe.py -> /home/igor/Projeto_Arduino_Blue/install/PubSubBlue/lib/python3.10/site-packages/PubSubBlue
+[0.558s] copying /home/igor/Projeto_Arduino_Blue/build/PubSubBlue/build/lib/PubSubBlue/BTEnvia.py -> /home/igor/Projeto_Arduino_Blue/install/PubSubBlue/lib/python3.10/site-packages/PubSubBlue
+[0.558s] byte-compiling /home/igor/Projeto_Arduino_Blue/install/PubSubBlue/lib/python3.10/site-packages/PubSubBlue/BTRecebe.py to BTRecebe.cpython-310.pyc
+[0.559s] byte-compiling /home/igor/Projeto_Arduino_Blue/install/PubSubBlue/lib/python3.10/site-packages/PubSubBlue/BTEnvia.py to BTEnvia.cpython-310.pyc
+[0.559s] running install_data
+[0.559s] copying resource/PubSubBlue -> /home/igor/Projeto_Arduino_Blue/install/PubSubBlue/share/ament_index/resource_index/packages
+[0.559s] copying package.xml -> /home/igor/Projeto_Arduino_Blue/install/PubSubBlue/share/PubSubBlue
+[0.559s] running install_egg_info
+[0.567s] removing '/home/igor/Projeto_Arduino_Blue/install/PubSubBlue/lib/python3.10/site-packages/PubSubBlue-0.0.0-py3.10.egg-info' (and everything under it)
+[0.567s] Copying ../../build/PubSubBlue/PubSubBlue.egg-info to /home/igor/Projeto_Arduino_Blue/install/PubSubBlue/lib/python3.10/site-packages/PubSubBlue-0.0.0-py3.10.egg-info
+[0.568s] running install_scripts
+[0.639s] Installing envia script to /home/igor/Projeto_Arduino_Blue/install/PubSubBlue/lib/PubSubBlue
+[0.640s] Installing recebe script to /home/igor/Projeto_Arduino_Blue/install/PubSubBlue/lib/PubSubBlue
+[0.640s] writing list of installed files to '/home/igor/Projeto_Arduino_Blue/build/PubSubBlue/install.log'
+[0.655s] Invoked command in '/home/igor/Projeto_Arduino_Blue/src/PubSubBlue' returned '0': PYTHONPATH=/home/igor/Projeto_Arduino_Blue/build/PubSubBlue/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/igor/Projeto_Arduino_Blue/install/PubSubBlue/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/PubSubBlue build --build-base /home/igor/Projeto_Arduino_Blue/build/PubSubBlue/build install --record /home/igor/Projeto_Arduino_Blue/build/PubSubBlue/install.log --single-version-externally-managed install_data

@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/PubSubBlue/PubSubBlue.egg-info/PKG-INFO
+writing dependency_links to ../../build/PubSubBlue/PubSubBlue.egg-info/dependency_links.txt
+writing entry points to ../../build/PubSubBlue/PubSubBlue.egg-info/entry_points.txt
+writing requirements to ../../build/PubSubBlue/PubSubBlue.egg-info/requires.txt
+writing top-level names to ../../build/PubSubBlue/PubSubBlue.egg-info/top_level.txt
+reading manifest file '../../build/PubSubBlue/PubSubBlue.egg-info/SOURCES.txt'
+writing manifest file '../../build/PubSubBlue/PubSubBlue.egg-info/SOURCES.txt'
+running build
+running build_py
+copying PubSubBlue/__init__.py -> /home/igor/Projeto_Arduino_Blue/build/PubSubBlue/build/lib/PubSubBlue
+copying PubSubBlue/BTRecebe.py -> /home/igor/Projeto_Arduino_Blue/build/PubSubBlue/build/lib/PubSubBlue
+copying PubSubBlue/BTEnvia.py -> /home/igor/Projeto_Arduino_Blue/build/PubSubBlue/build/lib/PubSubBlue
+running install
+running install_lib
+copying /home/igor/Projeto_Arduino_Blue/build/PubSubBlue/build/lib/PubSubBlue/BTEnvia.py -> /home/igor/Projeto_Arduino_Blue/install/PubSubBlue/lib/python3.10/site-packages/PubSubBlue
+byte-compiling /home/igor/Projeto_Arduino_Blue/install/PubSubBlue/lib/python3.10/site-packages/PubSubBlue/BTEnvia.py to BTEnvia.cpython-310.pyc
+running install_data
+copying resource/PubSubBlue -> /home/igor/Projeto_Arduino_Blue/install/PubSubBlue/share/ament_index/resource_index/packages
+copying package.xml -> /home/igor/Projeto_Arduino_Blue/install/PubSubBlue/share/PubSubBlue
+running install_egg_info
+removing '/home/igor/Projeto_Arduino_Blue/install/PubSubBlue/lib/python3.10/site-packages/PubSubBlue-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/PubSubBlue/PubSubBlue.egg-info to /home/igor/Projeto_Arduino_Blue/install/PubSubBlue/lib/python3.10/site-packages/PubSubBlue-0.0.0-py3.10.egg-info
+running install_scripts
+Installing envia script to /home/igor/Projeto_Arduino_Blue/install/PubSubBlue/lib/PubSubBlue
+Installing recebe script to /home/igor/Projeto_Arduino_Blue/install/PubSubBlue/lib/PubSubBlue
+writing list of installed files to '/home/igor/Projeto_Arduino_Blue/build/PubSubBlue/install.log'

@@ -8,8 +8,8 @@ setup.py
 ../../build/PubSubBlue/PubSubBlue.egg-info/requires.txt
 ../../build/PubSubBlue/PubSubBlue.egg-info/top_level.txt
 ../../build/PubSubBlue/PubSubBlue.egg-info/zip-safe
-PubSubBlue/BTEnvia.py
-PubSubBlue/BTRecebe.py
+PubSubBlue/BTReceive.py
+PubSubBlue/BTSend.py
 PubSubBlue/__init__.py
 resource/PubSubBlue
 test/test_copyright.py

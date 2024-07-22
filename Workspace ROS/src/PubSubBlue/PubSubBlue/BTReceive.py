@@ -1,9 +1,23 @@
+from time import sleep
 import serial as se
 from std_msgs.msg import String
 from rclpy.node import Node
 import rclpy 
-from Connect import connect
 
+def connect(port, bd):
+  #Function connects to the Bluetooth module given the port it's connected and the Arduino baud rate
+  #Be careful not to change the baud rate on the .ino file or change it here too
+  
+  while(1):
+    try:
+      Connection = se.Serial(port, bd)
+      print("Connected Sucessfully")
+      Connection.flushInput()
+      return Connection
+    except:
+      print("Could not connect. Retrying in 10s.")
+      sleep(10)
+      break
 
 class Pub(Node):
   #This node publishes any Messages it receives via bluetooth to a String topic
@@ -11,7 +25,7 @@ class Pub(Node):
   def __init__(self, Connection, TopicName):
     super().__init__("Receiver")
     self.pub = self.create_publisher(String, TopicName, 10)
-    self.publicar = self.create_timer(0.05, self.CallbackTimer)
+    self.publicar = self.create_timer(0.5, self.CallbackTimer)
     self.bt = Connection
   
   def CallbackTimer(self):

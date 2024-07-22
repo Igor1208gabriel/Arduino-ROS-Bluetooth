@@ -1,0 +1,31 @@
+[0.387s] Invoking command in '/home/igor/Desktop/bluetooth arduino/Workspace ROS/src/PubSubBlue': PYTHONPATH=/home/igor/Desktop/bluetooth arduino/Workspace ROS/build/PubSubBlue/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/igor/Desktop/bluetooth arduino/Workspace ROS/install/PubSubBlue/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/PubSubBlue build --build-base /home/igor/Desktop/bluetooth arduino/Workspace ROS/build/PubSubBlue/build install --record /home/igor/Desktop/bluetooth arduino/Workspace ROS/build/PubSubBlue/install.log --single-version-externally-managed install_data
+[0.512s] running egg_info
+[0.519s] writing ../../build/PubSubBlue/PubSubBlue.egg-info/PKG-INFO
+[0.519s] writing dependency_links to ../../build/PubSubBlue/PubSubBlue.egg-info/dependency_links.txt
+[0.519s] writing entry points to ../../build/PubSubBlue/PubSubBlue.egg-info/entry_points.txt
+[0.520s] writing requirements to ../../build/PubSubBlue/PubSubBlue.egg-info/requires.txt
+[0.520s] writing top-level names to ../../build/PubSubBlue/PubSubBlue.egg-info/top_level.txt
+[0.535s] reading manifest file '../../build/PubSubBlue/PubSubBlue.egg-info/SOURCES.txt'
+[0.536s] writing manifest file '../../build/PubSubBlue/PubSubBlue.egg-info/SOURCES.txt'
+[0.536s] running build
+[0.536s] running build_py
+[0.536s] copying PubSubBlue/__init__.py -> /home/igor/Desktop/bluetooth arduino/Workspace ROS/build/PubSubBlue/build/lib/PubSubBlue
+[0.536s] copying PubSubBlue/BTSend.py -> /home/igor/Desktop/bluetooth arduino/Workspace ROS/build/PubSubBlue/build/lib/PubSubBlue
+[0.536s] copying PubSubBlue/BTReceive.py -> /home/igor/Desktop/bluetooth arduino/Workspace ROS/build/PubSubBlue/build/lib/PubSubBlue
+[0.537s] running install
+[0.540s] running install_lib
+[0.551s] copying /home/igor/Desktop/bluetooth arduino/Workspace ROS/build/PubSubBlue/build/lib/PubSubBlue/BTSend.py -> /home/igor/Desktop/bluetooth arduino/Workspace ROS/install/PubSubBlue/lib/python3.10/site-packages/PubSubBlue
+[0.551s] copying /home/igor/Desktop/bluetooth arduino/Workspace ROS/build/PubSubBlue/build/lib/PubSubBlue/BTReceive.py -> /home/igor/Desktop/bluetooth arduino/Workspace ROS/install/PubSubBlue/lib/python3.10/site-packages/PubSubBlue
+[0.551s] byte-compiling /home/igor/Desktop/bluetooth arduino/Workspace ROS/install/PubSubBlue/lib/python3.10/site-packages/PubSubBlue/BTSend.py to BTSend.cpython-310.pyc
+[0.551s] byte-compiling /home/igor/Desktop/bluetooth arduino/Workspace ROS/install/PubSubBlue/lib/python3.10/site-packages/PubSubBlue/BTReceive.py to BTReceive.cpython-310.pyc
+[0.552s] running install_data
+[0.552s] copying resource/PubSubBlue -> /home/igor/Desktop/bluetooth arduino/Workspace ROS/install/PubSubBlue/share/ament_index/resource_index/packages
+[0.552s] copying package.xml -> /home/igor/Desktop/bluetooth arduino/Workspace ROS/install/PubSubBlue/share/PubSubBlue
+[0.552s] running install_egg_info
+[0.561s] removing '/home/igor/Desktop/bluetooth arduino/Workspace ROS/install/PubSubBlue/lib/python3.10/site-packages/PubSubBlue-0.0.0-py3.10.egg-info' (and everything under it)
+[0.561s] Copying ../../build/PubSubBlue/PubSubBlue.egg-info to /home/igor/Desktop/bluetooth arduino/Workspace ROS/install/PubSubBlue/lib/python3.10/site-packages/PubSubBlue-0.0.0-py3.10.egg-info
+[0.561s] running install_scripts
+[0.629s] Installing Receive script to /home/igor/Desktop/bluetooth arduino/Workspace ROS/install/PubSubBlue/lib/PubSubBlue
+[0.629s] Installing Send script to /home/igor/Desktop/bluetooth arduino/Workspace ROS/install/PubSubBlue/lib/PubSubBlue
+[0.629s] writing list of installed files to '/home/igor/Desktop/bluetooth arduino/Workspace ROS/build/PubSubBlue/install.log'
+[0.644s] Invoked command in '/home/igor/Desktop/bluetooth arduino/Workspace ROS/src/PubSubBlue' returned '0': PYTHONPATH=/home/igor/Desktop/bluetooth arduino/Workspace ROS/build/PubSubBlue/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/igor/Desktop/bluetooth arduino/Workspace ROS/install/PubSubBlue/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/PubSubBlue build --build-base /home/igor/Desktop/bluetooth arduino/Workspace ROS/build/PubSubBlue/build install --record /home/igor/Desktop/bluetooth arduino/Workspace ROS/build/PubSubBlue/install.log --single-version-externally-managed install_data

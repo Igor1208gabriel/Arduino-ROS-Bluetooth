@@ -20,8 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "recebe = PubSubBlue.BTRecebe:main",
-            "envia = PubSubBlue.BTEnvia:main"
+            "Receive = PubSubBlue.BTReceive:main",
+            "Send = PubSubBlue.BTSend:main"
         ],
     },
 )

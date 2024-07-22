@@ -4,7 +4,7 @@
   <name>PubSubBlue</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="igo@a.com">igor</maintainer>
+  <maintainer email="igor1208gabriel@gmail.com">igor</maintainer>
   <license>TODO: License declaration</license>
 
   <test_depend>ament_copyright</test_depend>

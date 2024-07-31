@@ -1,3 +1,0 @@
-[console_scripts]
-Receive = PubSubBlue.BTReceive:main
-Send = PubSubBlue.BTSend:main
